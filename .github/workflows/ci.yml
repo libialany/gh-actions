@@ -8,7 +8,7 @@ jobs:
       - name: Hello Wordl of Cats
         run: echo "Hello !! from ${{ github.workflow }} trigerred by the ${{ github.event_name }} by me ${{ github.actor }}"
         
-      - name: :*) this is the second change 
+      - name: :*) this is the second change  ..
         env: 
           JOB_CONTEXT: ${{ toJson(job) }}
         run: |
