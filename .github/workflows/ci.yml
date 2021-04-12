@@ -2,7 +2,7 @@ name: Firts workflow
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: Hello Wordl of Cats
